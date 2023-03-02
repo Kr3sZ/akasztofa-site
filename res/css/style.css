@@ -1,0 +1,101 @@
+html, body
+{
+    width: 100%;
+    background-color: #171816;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+nav
+{
+    background-color: #1e1f1ed3;
+    font-family: Paytone One;
+    padding-left: 10vw;
+}
+
+header
+{
+    height: 85vh;
+    background-color: #1d1d1d;
+    color: #a89b9d;
+    
+    border-bottom: #2c2f2f 2vh solid;
+
+    
+    opacity: 0%;
+
+    font-family: Paytone One;
+
+    animation-name: headerOpacity;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+}
+
+header h1
+{
+    animation-name: headerH2Size;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+header figure p, header figure
+{
+    animation-name: headerFigSize;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+footer
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #000000;
+
+    color: #a89b9d;
+
+    border-top: #2c2f2f 2vh solid;
+
+    font-family: Source Code Pro;
+}
+
+footer h4
+{
+    color: #a7a3a3;
+    font-size: 2vw;
+}
+
+section
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: #171816;
+
+    font-family: Poppins;
+}
+
+section h2
+{
+    color: #fff9f9;
+    font-size: 6vw;
+}
+
+section h3
+{
+    color: #a7a3a3;
+    font-size: 4vw;
+}
+
+section p
+{
+    color: #a7a3a3;
+    font-size: 2.25vw;
+}
+
+section img 
+{
+    width: 40vw;
+    height: auto;
+}

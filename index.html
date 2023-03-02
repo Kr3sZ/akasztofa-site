@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman</title>
+
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/res/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/res/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/res/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/res/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/res/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="/res/bootstrap/css/bootstrap.min.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="/res/aos/aos.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/res/css/fonts.css">
+  <link rel="stylesheet" href="/res/css/anim.css">
+  <link rel="stylesheet" href="/res/css/style.css">
+</head>
+
+<body>
+  <!-- NAVIGATION BAR -->
+  <nav class="container-fluid navbar navbar-expand-sm sticky-top navbar-dark">
+    <a class="navbar-brand" href="#">
+      <h2>Hangman</h2>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#introUi">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#docs">Documentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#download">Download</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- TITLE / HEADER -->
+  <header class="container-fluid text-center">
+    <div class="row h-25"></div>
+    <h1 class="display-1">
+      <p>HANGMAN</p>
+    </h1>
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p>"what the hell, oh my god, no way"</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Fizcó Berenc, <cite title="Source Title">Trefort [1825]</cite>
+      </figcaption>
+    </figure>
+  </header>
+
+
+  <!-- UI -->
+  <section class="container-fluid" id="introUi" >
+    <div class="row" data-aos="fade-left">
+      <div class="col-1"></div> <!-- PLACEHOLDER -->
+      <div class="col-10">
+        <div class="row">
+          <div class="col-5">
+            <h2 class="text-left">Modern UI</h2>
+            <p>Our professional developers made sure that everyone enjoys the stunning UI
+                          and has the best experience while playing our amazing game.</p>
+          </div>
+          <div class="col-2"></div>  <!-- PLACEHOLDER -->
+          <div class="col-5">
+            <img src="/res/imgs/uiPreview.png" alt="Modern UI" width="100%">
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>  <!-- PLACEHOLDER -->
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <hr class="border border-secondary border-5 opacity-75">
+
+  <!-- DIFFICULTY -->
+  <section class="container-fluid" id="introDif">
+    <div class="row" data-aos="fade-right">
+      <div class="col-1"></div> <!-- PLACEHOLDER -->
+      <div class="col-10">
+        <div class="row">
+          <div class="col-5">
+            <img src="/res/imgs/difficultyPreview.png" alt="Difficulty" width="100%">
+          </div>
+          <div class="col-2"></div>  <!-- PLACEHOLDER -->
+          <div class="col-5">
+            <h2 class="text-left">Made for everyone</h2>
+            <p>Even if you are a dumbass who cant even figure
+               it out how to play the world's simplest game you
+               can always choose our easier options with simpler words</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>  <!-- PLACEHOLDER -->
+    </div>
+  </section>
+  
+  <!-- DIVIDER -->
+  <hr class="border border-secondary border-5 opacity-75">
+
+  <!-- FILE -->
+  <section class="container-fluid" id="introFile">
+    <div class="row" data-aos="fade-left">
+      <div class="col-1"></div> <!-- PLACEHOLDER -->
+      <div class="col-10">
+        <div class="row">
+          <div class="col-5">
+            <h2 class="text-left">Scalabillity</h2>
+            <p>Yes we offer you tons of options to scale your app
+                in the way YOU want to use it, with our high tech
+                and innovative soloutions for file handling. </p>
+          </div>
+          <div class="col-2"></div>  <!-- PLACEHOLDER -->
+          <div class="col-5">
+            <img src="/res/imgs/filePreview.png" alt="File" width="100%">
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>  <!-- PLACEHOLDER -->
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <hr class="border border-secondary border-5 opacity-75">
+
+  <!-- FILE -->
+  <section class="container-fluid" id="introLinus">
+    <div class="row" data-aos="fade-right">
+      <div class="col-1"></div> <!-- PLACEHOLDER -->
+      <div class="col-10">
+        <div class="row"><div class="col-5">
+          <img src="/res/imgs/linusPreview.jpg" alt="Linus" width="100%">
+        </div>
+        <div class="col-2"></div>  <!-- PLACEHOLDER -->
+        <div class="col-5">
+          <h2 class="text-left">Open-source</h2>
+          <p>Linus likes it, Linus is smart, if you like you, you are smart. <br> [unknown wise man] </p>
+        </div>
+        </div>
+      </div>
+      <div class="col-1"></div>  <!-- PLACEHOLDER -->
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <hr class="border border-secondary border-5 opacity-75">
+  
+  <!-- DOCS -->
+  <section class="container-fluid" id="docs">
+    <div class="row" data-aos="flip-up">
+      <div class="col-1"></div> <!-- PLACEHOLDER -->
+      <div class="col-10">
+        <h2 class="text-left">DOCS</h2>
+        <div class="row text-center">
+          <div class="col-6">
+            <h3>User's documentation</h3>
+          </div>
+          <div class="col-6">
+            <h3>Developer's documentation</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-6">
+            <br><br>
+            <button type="button" class="btn btn-secondary btn-lg" onclick="window.open('/res/UserDocs.pdf')">OPEN</button>
+          </div>
+          <div class="col-6">
+          <p>Everything has been documented inside the source code with "summary","see","returns" and "exception" tags </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>  <!-- PLACEHOLDER -->
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <hr class="border border-secondary border-5 opacity-75">
+
+  <!-- DOWNLOAD -->
+  <section class="container-fluid" id="download">
+    <div class="row" data-aos="flip-up">
+      <div class="col-12">
+        <h2 class="display-3 text-center">Download</h2>
+        <div class="row text-center">
+          <div class="col-12">
+            <button type="button" class="btn btn-secondary btn-lg" onclick="window.open('https://github.com/IamInsane0xd/akasztofa')">SOURCE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="container-fluid text-center">
+    <h4>Bori Krisztián &nbsp; [web app]</h4>
+    <h4>Biczó Ferenc [console app]</h4>
+  </footer>
+
+  <!-- JQUERY -->
+  <script src="/res/jquery/jquery-3.6.3.min.js"></script>
+
+  <!-- POPPER JS / BOOTSTRAP JS -->
+  <script src="/res/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="/res/aos/aos.js"></script>
+
+  <!-- AOS INIT -->
+  <script>AOS.init();</script>
+</body>
+</html>

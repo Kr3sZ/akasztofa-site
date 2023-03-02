@@ -1,0 +1,36 @@
+
+@keyframes headerOpacity
+{
+    0% 
+    {
+        opacity: 0%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+
+@keyframes headerH2Size
+{
+    0% 
+    {
+        font-size: 0vw;
+    }
+    100%
+    {
+        font-size: 8vw;
+    }
+}
+
+@keyframes headerFigSize
+{
+    0% 
+    {
+        font-size: 0vw;
+    }
+    100%
+    {
+        font-size: 1.5vw;
+    }
+}

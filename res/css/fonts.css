@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Paytone One;
+  src: url(/res/fonts/Paytone_One/PaytoneOne-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Permanent Marker;
+  src: url(/res/fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(/res/fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/res/fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Source Code Pro;
+  src: url(/res/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+  font-weight: normal;
+}
